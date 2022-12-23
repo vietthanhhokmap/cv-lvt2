@@ -314,7 +314,7 @@ header .tabs ul li a:hover{
 .contact .row .content{
     flex:1 1 30rem;
     padding:4rem;
-    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .contact .row form{
@@ -350,7 +350,17 @@ header .tabs ul li a:hover{
     padding-bottom: 2rem;
 }
 
-.contact .row .content .info h3{
+.contact .row .content .info .email{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#222;
+    padding:1rem 0;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+.contact .row .content .info .phone, .fb, .address{
     display: flex;
     align-items: center;
     font-size: 2rem;
